@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T19:55:53.512Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" etag="2MbM82dozdAiYm6n51On" version="20.8.20" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-17T20:03:40.503Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" etag="RxN8M1-O7Xc8GRe0K4J7" version="20.8.20" type="github" pages="8">
   <diagram name="main" id="MDV9ED9CmzNVFrc3tYcY">
     <mxGraphModel dx="1189" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -605,6 +605,55 @@
         </mxCell>
         <mxCell id="HwzFxEBWQmZfIEtXck_Y-37" value="nft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="a19qC69_Rzs7D6ufKpCl" name="support">
+    <mxGraphModel dx="1189" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="200" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7m5u5TJDQvtnCGLQ5Cb-1" target="X7m5u5TJDQvtnCGLQ5Cb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-1" value="у бота есть набор команд на которые он отвечает" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7m5u5TJDQvtnCGLQ5Cb-2" target="X7m5u5TJDQvtnCGLQ5Cb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-2" value="пользователь задает вопрос по авторизаии" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7m5u5TJDQvtnCGLQ5Cb-3" target="X7m5u5TJDQvtnCGLQ5Cb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-3" value="пользователь хоччет получить ответ от специалиста" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7m5u5TJDQvtnCGLQ5Cb-4" target="X7m5u5TJDQvtnCGLQ5Cb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-4" value="служба поддержки перенаправляет запрос на свободного специалиста" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="580" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-8" value="специалист подключается и дает от вет" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="700" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-11" value="сервис поддержки" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X7m5u5TJDQvtnCGLQ5Cb-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X7m5u5TJDQvtnCGLQ5Cb-12" value="вход с любой страницы" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
